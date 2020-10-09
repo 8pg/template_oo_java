@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 /**
  *
- * @author P. Godoy
+ * @author 8pg
  */
 public class Read {
-    
+
     private static Scanner read = new Scanner(System.in);
-    
-    public static String readString(String input){
+
+    public static String readString(String input) {
         System.out.print(input);
         return read.nextLine();
     }
